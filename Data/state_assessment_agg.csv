@@ -1,0 +1,271 @@
+Year,Subject,Grade,Level,Count,Student Count,Percent,Cohort,TestName
+17-18,Reading,3,High,,0,0.426,CO2027,Iowa Assessment
+17-18,Reading,3,Intermediate,,0,0.474,CO2027,Iowa Assessment
+17-18,Reading,3,Low,,0,0.1,CO2027,Iowa Assessment
+17-18,Math,3,High,,0,0.561,CO2027,Iowa Assessment
+17-18,Math,3,Intermediate,,0,0.359,CO2027,Iowa Assessment
+17-18,Math,3,Low,,0,0.08,CO2027,Iowa Assessment
+17-18,Reading,4,High,,,0.447,CO2026,Iowa Assessment
+17-18,Reading,4,Intermediate,,,0.476,CO2026,Iowa Assessment
+17-18,Reading,4,Low,,,0.077,CO2026,Iowa Assessment
+17-18,Math,4,High,,,0.581,CO2026,Iowa Assessment
+17-18,Math,4,Intermediate,,,0.359,CO2026,Iowa Assessment
+17-18,Math,4,Low,,,0.06,CO2026,Iowa Assessment
+16-17,Reading,3,High,,,0.393,CO2026,Iowa Assessment
+16-17,Reading,3,Intermediate,,,0.52,CO2026,Iowa Assessment
+16-17,Reading,3,Low,,,0.087,CO2026,Iowa Assessment
+16-17,Math,3,High,,,0.647,CO2026,Iowa Assessment
+16-17,Math,3,Intermediate,,,0.286,CO2026,Iowa Assessment
+16-17,Math,3,Low,,,0.067,CO2026,Iowa Assessment
+17-18,Reading,5,High,,,0.476,CO2025,Iowa Assessment
+17-18,Reading,5,Intermediate,,,0.424,CO2025,Iowa Assessment
+17-18,Reading,5,Low,,,0.1,CO2025,Iowa Assessment
+17-18,Math,5,High,,,0.534,CO2025,Iowa Assessment
+17-18,Math,5,Intermediate,,,0.383,CO2025,Iowa Assessment
+17-18,Math,5,Low,,,0.083,CO2025,Iowa Assessment
+16-17,Reading,4,High,,,0.439,CO2025,Iowa Assessment
+16-17,Reading,4,Intermediate,,,0.449,CO2025,Iowa Assessment
+16-17,Reading,4,Low,,,0.112,CO2025,Iowa Assessment
+16-17,Math,4,High,,,0.606,CO2025,Iowa Assessment
+16-17,Math,4,Intermediate,,,0.326,CO2025,Iowa Assessment
+16-17,Math,4,Low,,,0.068,CO2025,Iowa Assessment
+15-16,Reading,3,High,,,0.397,CO2025,Iowa Assessment
+15-16,Reading,3,Intermediate,,,0.486,CO2025,Iowa Assessment
+15-16,Reading,3,Low,,,0.117,CO2025,Iowa Assessment
+15-16,Math,3,High,,,0.581,CO2025,Iowa Assessment
+15-16,Math,3,Intermediate,,,0.347,CO2025,Iowa Assessment
+15-16,Math,3,Low,,,0.072,CO2025,Iowa Assessment
+17-18,Reading,6,High,,,0.415,CO2024,Iowa Assessment
+17-18,Reading,6,Intermediate,,,0.466,CO2024,Iowa Assessment
+17-18,Reading,6,Low,,,0.119,CO2024,Iowa Assessment
+17-18,Math,6,High,,,0.552,CO2024,Iowa Assessment
+17-18,Math,6,Intermediate,,,0.387,CO2024,Iowa Assessment
+17-18,Math,6,Low,,,0.061,CO2024,Iowa Assessment
+16-17,Reading,5,High,,,0.436,CO2024,Iowa Assessment
+16-17,Reading,5,Intermediate,,,0.426,CO2024,Iowa Assessment
+16-17,Reading,5,Low,,,0.138,CO2024,Iowa Assessment
+16-17,Math,5,High,,,0.561,CO2024,Iowa Assessment
+16-17,Math,5,Intermediate,,,0.364,CO2024,Iowa Assessment
+16-17,Math,5,Low,,,0.075,CO2024,Iowa Assessment
+15-16,Reading,4,High,,,0.478,CO2024,Iowa Assessment
+15-16,Reading,4,Intermediate,,,0.403,CO2024,Iowa Assessment
+15-16,Reading,4,Low,,,0.119,CO2024,Iowa Assessment
+15-16,Math,4,High,,,0.581,CO2024,Iowa Assessment
+15-16,Math,4,Intermediate,,,0.347,CO2024,Iowa Assessment
+15-16,Math,4,Low,,,0.072,CO2024,Iowa Assessment
+14-15,Reading,3,High,,,0.3608,CO2024,Iowa Assessment
+14-15,Reading,3,Intermediate,,,0.4716,CO2024,Iowa Assessment
+14-15,Reading,3,Low,,,0.1676,CO2024,Iowa Assessment
+14-15,Math,3,High,,,0.5324,CO2024,Iowa Assessment
+14-15,Math,3,Intermediate,,,0.3549,CO2024,Iowa Assessment
+14-15,Math,3,Low,,,0.1127,CO2024,Iowa Assessment
+17-18,Reading,7,High,,,0.351,CO2023,Iowa Assessment
+17-18,Reading,7,Intermediate,,,0.535,CO2023,Iowa Assessment
+17-18,Reading,7,Low,,,0.114,CO2023,Iowa Assessment
+17-18,Math,7,High,,,0.487,CO2023,Iowa Assessment
+17-18,Math,7,Intermediate,,,0.454,CO2023,Iowa Assessment
+17-18,Math,7,Low,,,0.059,CO2023,Iowa Assessment
+16-17,Reading,6,High,,,0.408,CO2023,Iowa Assessment
+16-17,Reading,6,Intermediate,,,0.469,CO2023,Iowa Assessment
+16-17,Reading,6,Low,,,0.123,CO2023,Iowa Assessment
+16-17,Math,6,High,,,0.608,CO2023,Iowa Assessment
+16-17,Math,6,Intermediate,,,0.356,CO2023,Iowa Assessment
+16-17,Math,6,Low,,,0.036,CO2023,Iowa Assessment
+15-16,Reading,5,High,,,0.493,CO2023,Iowa Assessment
+15-16,Reading,5,Intermediate,,,0.383,CO2023,Iowa Assessment
+15-16,Reading,5,Low,,,0.124,CO2023,Iowa Assessment
+15-16,Math,5,High,,,0.588,CO2023,Iowa Assessment
+15-16,Math,5,Intermediate,,,0.366,CO2023,Iowa Assessment
+15-16,Math,5,Low,,,0.046,CO2023,Iowa Assessment
+14-15,Reading,4,High,,,0.4041,CO2023,Iowa Assessment
+14-15,Reading,4,Intermediate,,,0.4738,CO2023,Iowa Assessment
+14-15,Reading,4,Low,,,0.1221,CO2023,Iowa Assessment
+14-15,Math,4,High,,,0.5188,CO2023,Iowa Assessment
+14-15,Math,4,Intermediate,,,0.4058,CO2023,Iowa Assessment
+14-15,Math,4,Low,,,0.0754,CO2023,Iowa Assessment
+13-14,Reading,3,High,,,0.3428,CO2023,Iowa Assessment
+13-14,Reading,3,Intermediate,,,0.5251,CO2023,Iowa Assessment
+13-14,Reading,3,Low,,,0.1321,CO2023,Iowa Assessment
+13-14,Math,3,High,,,0.5031,CO2023,Iowa Assessment
+13-14,Math,3,Intermediate,,,0.4088,CO2023,Iowa Assessment
+13-14,Math,3,Low,,,0.0881,CO2023,Iowa Assessment
+17-18,Reading,8,High,,,0.36,CO2022,Iowa Assessment
+17-18,Reading,8,Intermediate,,,0.544,CO2022,Iowa Assessment
+17-18,Reading,8,Low,,,0.096,CO2022,Iowa Assessment
+17-18,Math,8,High,,,0.488,CO2022,Iowa Assessment
+17-18,Math,8,Intermediate,,,0.427,CO2022,Iowa Assessment
+17-18,Math,8,Low,,,0.085,CO2022,Iowa Assessment
+16-17,Reading,7,High,,,0.375,CO2022,Iowa Assessment
+16-17,Reading,7,Intermediate,,,0.527,CO2022,Iowa Assessment
+16-17,Reading,7,Low,,,0.098,CO2022,Iowa Assessment
+16-17,Math,7,High,,,0.589,CO2022,Iowa Assessment
+16-17,Math,7,Intermediate,,,0.348,CO2022,Iowa Assessment
+16-17,Math,7,Low,,,0.063,CO2022,Iowa Assessment
+15-16,Reading,6,High,,,0.468,CO2022,Iowa Assessment
+15-16,Reading,6,Intermediate,,,0.432,CO2022,Iowa Assessment
+15-16,Reading,6,Low,,,0.1,CO2022,Iowa Assessment
+15-16,Math,6,High,,,0.657,CO2022,Iowa Assessment
+15-16,Math,6,Intermediate,,,0.294,CO2022,Iowa Assessment
+15-16,Math,6,Low,,,0.049,CO2022,Iowa Assessment
+14-15,Reading,5,High,,,0.4524,CO2022,Iowa Assessment
+14-15,Reading,5,Intermediate,,,0.4265,CO2022,Iowa Assessment
+14-15,Reading,5,Low,,,0.1211,CO2022,Iowa Assessment
+14-15,Math,5,High,,,0.6264,CO2022,Iowa Assessment
+14-15,Math,5,Intermediate,,,0.3075,CO2022,Iowa Assessment
+14-15,Math,5,Low,,,0.0661,CO2022,Iowa Assessment
+13-14,Reading,4,High,,,0.3929,CO2022,Iowa Assessment
+13-14,Reading,4,Intermediate,,,0.4851,CO2022,Iowa Assessment
+13-14,Reading,4,Low,,,0.122,CO2022,Iowa Assessment
+13-14,Math,4,High,,,0.5208,CO2022,Iowa Assessment
+13-14,Math,4,Intermediate,,,0.3988,CO2022,Iowa Assessment
+13-14,Math,4,Low,,,0.0804,CO2022,Iowa Assessment
+12-13,Reading,3,High,,,0.2702,CO2022,Iowa Assessment
+12-13,Reading,3,Intermediate,,,0.6304,CO2022,Iowa Assessment
+12-13,Reading,3,Low,,,0.0994,CO2022,Iowa Assessment
+12-13,Math,3,High,,,0.3901,CO2022,Iowa Assessment
+12-13,Math,3,Intermediate,,,0.5046,CO2022,Iowa Assessment
+12-13,Math,3,Low,,,0.1053,CO2022,Iowa Assessment
+17-18,Reading,9,High,,,0.407,CO2021,Iowa Assessment
+17-18,Reading,9,Intermediate,,,0.551,CO2021,Iowa Assessment
+17-18,Reading,9,Low,,,0.042,CO2021,Iowa Assessment
+17-18,Math,9,High,,,0.34,CO2021,Iowa Assessment
+17-18,Math,9,Intermediate,,,0.585,CO2021,Iowa Assessment
+17-18,Math,9,Low,,,0.075,CO2021,Iowa Assessment
+16-17,Reading,8,High,,,0.326,CO2021,Iowa Assessment
+16-17,Reading,8,Intermediate,,,0.565,CO2021,Iowa Assessment
+16-17,Reading,8,Low,,,0.109,CO2021,Iowa Assessment
+16-17,Math,8,High,,,0.467,CO2021,Iowa Assessment
+16-17,Math,8,Intermediate,,,0.435,CO2021,Iowa Assessment
+16-17,Math,8,Low,,,0.098,CO2021,Iowa Assessment
+15-16,Reading,7,High,,,0.35,CO2021,Iowa Assessment
+15-16,Reading,7,Intermediate,,,0.556,CO2021,Iowa Assessment
+15-16,Reading,7,Low,,,0.094,CO2021,Iowa Assessment
+15-16,Math,7,High,,,0.544,CO2021,Iowa Assessment
+15-16,Math,7,Intermediate,,,0.408,CO2021,Iowa Assessment
+15-16,Math,7,Low,,,0.048,CO2021,Iowa Assessment
+14-15,Reading,6,High,,,0.3822,CO2021,Iowa Assessment
+14-15,Reading,6,Intermediate,,,0.5,CO2021,Iowa Assessment
+14-15,Reading,6,Low,,,0.1178,CO2021,Iowa Assessment
+14-15,Math,6,High,,,0.5365,CO2021,Iowa Assessment
+14-15,Math,6,Intermediate,,,0.4032,CO2021,Iowa Assessment
+14-15,Math,6,Low,,,0.0603,CO2021,Iowa Assessment
+13-14,Reading,5,High,,,0.3541,CO2021,Iowa Assessment
+13-14,Reading,5,Intermediate,,,0.4918,CO2021,Iowa Assessment
+13-14,Reading,5,Low,,,0.1541,CO2021,Iowa Assessment
+13-14,Math,5,High,,,0.5752,CO2021,Iowa Assessment
+13-14,Math,5,Intermediate,,,0.3464,CO2021,Iowa Assessment
+13-14,Math,5,Low,,,0.0784,CO2021,Iowa Assessment
+12-13,Reading,4,High,,,0.3115,CO2021,Iowa Assessment
+12-13,Reading,4,Intermediate,,,0.5508,CO2021,Iowa Assessment
+12-13,Reading,4,Low,,,0.1377,CO2021,Iowa Assessment
+12-13,Math,4,High,,,0.4474,CO2021,Iowa Assessment
+12-13,Math,4,Intermediate,,,0.4704,CO2021,Iowa Assessment
+12-13,Math,4,Low,,,0.0822,CO2021,Iowa Assessment
+11-12,Reading,3,High,,,0.2571,CO2021,Iowa Assessment
+11-12,Reading,3,Intermediate,,,0.6021,CO2021,Iowa Assessment
+11-12,Reading,3,Low,,,0.1408,CO2021,Iowa Assessment
+11-12,Math,3,High,,,0.3592,CO2021,Iowa Assessment
+11-12,Math,3,Intermediate,,,0.5211,CO2021,Iowa Assessment
+11-12,Math,3,Low,,,0.1197,CO2021,Iowa Assessment
+17-18,Reading,10,High,,,0.393,CO2020,Iowa Assessment
+17-18,Reading,10,Intermediate,,,0.554,CO2020,Iowa Assessment
+17-18,Reading,10,Low,,,0.053,CO2020,Iowa Assessment
+17-18,Math,10,High,,,0.449,CO2020,Iowa Assessment
+17-18,Math,10,Intermediate,,,0.4955,CO2020,Iowa Assessment
+17-18,Math,10,Low,,,0.0555,CO2020,Iowa Assessment
+16-17,Reading,9,High,,,0.484,CO2020,Iowa Assessment
+16-17,Reading,9,Intermediate,,,0.484,CO2020,Iowa Assessment
+16-17,Reading,9,Low,,,0.032,CO2020,Iowa Assessment
+16-17,Math,9,High,,,0.411,CO2020,Iowa Assessment
+16-17,Math,9,Intermediate,,,0.534,CO2020,Iowa Assessment
+16-17,Math,9,Low,,,0.055,CO2020,Iowa Assessment
+15-16,Reading,8,High,,,0.384,CO2020,Iowa Assessment
+15-16,Reading,8,Intermediate,,,0.498,CO2020,Iowa Assessment
+15-16,Reading,8,Low,,,0.118,CO2020,Iowa Assessment
+15-16,Math,8,High,,,0.529,CO2020,Iowa Assessment
+15-16,Math,8,Intermediate,,,0.402,CO2020,Iowa Assessment
+15-16,Math,8,Low,,,0.069,CO2020,Iowa Assessment
+14-15,Reading,7,High,,,0.3373,CO2020,Iowa Assessment
+14-15,Reading,7,Intermediate,,,0.5463,CO2020,Iowa Assessment
+14-15,Reading,7,Low,,,0.1164,CO2020,Iowa Assessment
+14-15,Math,7,High,,,0.5493,CO2020,Iowa Assessment
+14-15,Math,7,Intermediate,,,0.382,CO2020,Iowa Assessment
+14-15,Math,7,Low,,,0.0687,CO2020,Iowa Assessment
+13-14,Reading,6,High,,,0.361,CO2020,Iowa Assessment
+13-14,Reading,6,Intermediate,,,0.497,CO2020,Iowa Assessment
+13-14,Reading,6,Low,,,0.142,CO2020,Iowa Assessment
+13-14,Math,6,High,,,0.5118,CO2020,Iowa Assessment
+13-14,Math,6,Intermediate,,,0.4349,CO2020,Iowa Assessment
+13-14,Math,6,Low,,,0.0533,CO2020,Iowa Assessment
+12-13,Reading,5,High,,,0.2147,CO2020,Iowa Assessment
+12-13,Reading,5,Intermediate,,,0.6473,CO2020,Iowa Assessment
+12-13,Reading,5,Low,,,0.138,CO2020,Iowa Assessment
+12-13,Math,5,High,,,0.4264,CO2020,Iowa Assessment
+12-13,Math,5,Intermediate,,,0.4754,CO2020,Iowa Assessment
+12-13,Math,5,Low,,,0.0982,CO2020,Iowa Assessment
+11-12,Reading,4,High,,,0.2649,CO2020,Iowa Assessment
+11-12,Reading,4,Intermediate,,,0.5563,CO2020,Iowa Assessment
+11-12,Reading,4,Low,,,0.1788,CO2020,Iowa Assessment
+11-12,Math,4,High,,,0.4172,CO2020,Iowa Assessment
+11-12,Math,4,Intermediate,,,0.4702,CO2020,Iowa Assessment
+11-12,Math,4,Low,,,0.1126,CO2020,Iowa Assessment
+10-11,Reading,3,High,,,0.344,CO2020,Iowa Assessment
+10-11,Reading,3,Intermediate,,,0.532,CO2020,Iowa Assessment
+10-11,Reading,3,Low,,,0.124,CO2020,Iowa Assessment
+10-11,Math,3,High,,,0.3495,CO2020,Iowa Assessment
+10-11,Math,3,Intermediate,,,0.5295,CO2020,Iowa Assessment
+10-11,Math,3,Low,,,0.121,CO2020,Iowa Assessment
+18-19,Math,3,Low,34,362,0.094,CO2028,ISASP
+18-19,Math,4,Low,25,384,0.065,CO2027,ISASP
+18-19,Math,5,Low,24,366,0.066,CO2026,ISASP
+18-19,Math,6,Low,20,416,0.048,CO2025,ISASP
+18-19,Math,7,Low,44,410,0.107,CO2024,ISASP
+18-19,Math,8,Low,61,377,0.162,CO2023,ISASP
+18-19,Math,9,Low,27,374,0.072,CO2022,ISASP
+18-19,Math,10,Low,41,349,0.117,CO2021,ISASP
+18-19,Math,11,Low,25,335,0.075,CO2020,ISASP
+18-19,Math,3,Intermediate,213,362,0.588,CO2028,ISASP
+18-19,Math,4,Intermediate,209,384,0.544,CO2027,ISASP
+18-19,Math,5,Intermediate,157,366,0.429,CO2026,ISASP
+18-19,Math,6,Intermediate,223,416,0.536,CO2025,ISASP
+18-19,Math,7,Intermediate,269,410,0.656,CO2024,ISASP
+18-19,Math,8,Intermediate,243,377,0.645,CO2023,ISASP
+18-19,Math,9,Intermediate,214,374,0.572,CO2022,ISASP
+18-19,Math,10,Intermediate,203,349,0.582,CO2021,ISASP
+18-19,Math,11,Intermediate,184,335,0.549,CO2020,ISASP
+18-19,Math,3,High,115,362,0.318,CO2028,ISASP
+18-19,Math,4,High,150,384,0.391,CO2027,ISASP
+18-19,Math,5,High,185,366,0.505,CO2026,ISASP
+18-19,Math,6,High,173,416,0.416,CO2025,ISASP
+18-19,Math,7,High,97,410,0.237,CO2024,ISASP
+18-19,Math,8,High,73,377,0.194,CO2023,ISASP
+18-19,Math,9,High,133,374,0.356,CO2022,ISASP
+18-19,Math,10,High,105,349,0.301,CO2021,ISASP
+18-19,Math,11,High,126,335,0.376,CO2020,ISASP
+18-19,Reading,3,Low,73,362,0.202,CO2028,ISASP
+18-19,Reading,4,Low,42,384,0.109,CO2027,ISASP
+18-19,Reading,5,Low,43,366,0.117,CO2026,ISASP
+18-19,Reading,6,Low,38,416,0.091,CO2025,ISASP
+18-19,Reading,7,Low,56,410,0.137,CO2024,ISASP
+18-19,Reading,8,Low,65,375,0.173,CO2023,ISASP
+18-19,Reading,9,Low,12,372,0.032,CO2022,ISASP
+18-19,Reading,10,Low,22,349,0.063,CO2021,ISASP
+18-19,Reading,11,Low,30,335,0.09,CO2020,ISASP
+18-19,Reading,3,Intermediate,241,362,0.666,CO2028,ISASP
+18-19,Reading,4,Intermediate,275,384,0.716,CO2027,ISASP
+18-19,Reading,5,Intermediate,260,366,0.71,CO2026,ISASP
+18-19,Reading,6,Intermediate,288,416,0.692,CO2025,ISASP
+18-19,Reading,7,Intermediate,288,410,0.702,CO2024,ISASP
+18-19,Reading,8,Intermediate,240,375,0.64,CO2023,ISASP
+18-19,Reading,9,Intermediate,267,372,0.718,CO2022,ISASP
+18-19,Reading,10,Intermediate,242,349,0.693,CO2021,ISASP
+18-19,Reading,11,Intermediate,219,335,0.654,CO2020,ISASP
+18-19,Reading,3,High,48,362,0.133,CO2028,ISASP
+18-19,Reading,4,High,67,384,0.174,CO2027,ISASP
+18-19,Reading,5,High,63,366,0.172,CO2026,ISASP
+18-19,Reading,6,High,90,416,0.216,CO2025,ISASP
+18-19,Reading,7,High,66,410,0.161,CO2024,ISASP
+18-19,Reading,8,High,70,375,0.187,CO2023,ISASP
+18-19,Reading,9,High,93,372,0.25,CO2022,ISASP
+18-19,Reading,10,High,85,349,0.244,CO2021,ISASP
+18-19,Reading,11,High,86,335,0.257,CO2020,ISASP

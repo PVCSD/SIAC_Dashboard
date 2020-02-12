@@ -1,0 +1,12 @@
+name: SIAC_Dashboard
+title: SIAC_Dashboard
+username:
+account: pleasval
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1800806
+bundleId: 2796198
+url: https://pleasval.shinyapps.io/SIAC_Dashboard/
+when: 1581542659.65392
+asMultiple: FALSE
+asStatic: FALSE
