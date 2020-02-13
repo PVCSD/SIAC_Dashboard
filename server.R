@@ -32,6 +32,8 @@ server <- function(input, output) {
   
   
   data_for_math_SA <- reactive({
+    req(input$SAClassOf)
+    
     
     cohortToPlot <- input$SAClassOf
     proficencyGroups %>%
@@ -47,6 +49,8 @@ server <- function(input, output) {
   
   
   data_for_reading_SA <- reactive({
+    req(input$SAClassOf)
+    
     
     cohortToPlot <- input$SAClassOf
     proficencyGroups %>%
@@ -60,9 +64,11 @@ server <- function(input, output) {
   })
   
   output$reading_table_SA <- renderDataTable({
+    req(input$SAClassOf)
+    
     
     datatable(data =  data_for_reading_SA(), 
-              options = list(autoWidth = FALSE, dom = 't'), rownames=FALSE)
+              options = list(autoWidth = TRUE, dom = 't'), rownames=FALSE)
     
     
     
@@ -70,6 +76,8 @@ server <- function(input, output) {
   
   output$math_table_SA <- 
     output$reading_table_SA <- renderDataTable({
+      req(input$SAClassOf)
+      
       
       datatable(data =  data_for_reading_SA(), 
                 options = list(autoWidth = FALSE, dom = 't'), rownames=FALSE)
@@ -91,6 +99,10 @@ server <- function(input, output) {
   
   # STATE ASSESSMENT ELA/Reading Scores
   output$assessmentCohortsELA <- renderPlot({
+    req(input$SAClassOf)
+    
+    
+    
     print("ELA plot")
     cohortToPlot <- input$SAClassOf
     print("ELA CLASS OF")
@@ -160,6 +172,8 @@ server <- function(input, output) {
   
   # STATE ASSESSMENT Math Scores
   output$assessmentCohortsMath <- renderPlot({
+    req(input$SAClassOf)
+    
     cohortToPlot <- input$SAClassOf
     subjectToPlot <- "Math"
     
