@@ -3,6 +3,7 @@ library(tidyverse)
 library(ggtext)
 library(Cairo)
 library(DT)
+library(patchwork)
 options(shiny.usecairo=T)
 
 proficencyGroups <- readr::read_csv("Data/state_assessment_agg.csv")
@@ -262,8 +263,8 @@ server <- function(input, output) {
   
   
   # STATE ASSESSMENT PLOT DISTRICT
-  output$grade_plot_building_SA <- renderPlot({
-    proficencyGrades %>%
+  output$grade_plot_district_SA <- renderPlot({
+   p1 <-  proficencyGrades %>%
       filter(Grade == input$grade_SA, 
              Subject == input$subject_select_SA) %>%
       filter(Year != "13-14")%>%
@@ -286,7 +287,71 @@ server <- function(input, output) {
       scale_color_manual( values = c("#000000", "#F6F6F6"))+
       theme(legend.position = "none")+
       theme(plot.title = element_text(hjust=0.5))
-  },bg="transparent", execOnResize = TRUE)
+    
+    
+    p2 <- proficencyGrades %>%
+      filter(Grade == input$grade_SA, 
+             Subject == input$subject_select_SA) %>%
+      filter(Year != "13-14")%>%
+      group_by(Year, School)%>%
+      mutate(Score = str_remove(Score, pattern = "%")) %>%
+      summarise(Score2 = mean(as.numeric(Score), na.rm = T), 
+                testName = `Test Name`[1])%>%
+      ggplot(aes(x=Year, y=Score2, fill=testName, color=testName)) +
+      geom_bar(stat='identity')+
+      geom_text(aes(label=paste0(round(Score2, 1), '%')), color = "#D6D6D6", 
+                position = position_dodge(width = 1), 
+                vjust = 1.2)+
+      ylim(0,100)+
+      labs(x="", y="", 
+           title = "", 
+           fill="Test", color= "Test")+
+      theme_minimal()+
+      theme(legend.position = "bottom")+
+      scale_fill_manual( values = c("#26547C", "#011638"))+
+      scale_color_manual( values = c("#000000", "#F6F6F6"))+
+      theme(legend.position = "none")+
+      facet_wrap(vars(School), nrow = 3)
+    
+    
+    p1/p2+plot_layout(ncol=1)->p3
+      
+      return(p1)
+    
+  },bg="transparent")
+  
+  
+  
+  output$grade_plot_building_SA <- renderPlot({
+    
+    p2 <- proficencyGrades %>%
+      filter(Grade == input$grade_SA, 
+             Subject == input$subject_select_SA) %>%
+      filter(Year != "13-14")%>%
+      group_by(Year, School)%>%
+      mutate(Score = str_remove(Score, pattern = "%")) %>%
+      summarise(Score2 = mean(as.numeric(Score), na.rm = T), 
+                testName = `Test Name`[1])%>%
+      ggplot(aes(x=Year, y=Score2, fill=testName, color=testName)) +
+      geom_bar(stat='identity')+
+      geom_text(aes(label=paste0(round(Score2, 1), '%')), color = "#D6D6D6", 
+                position = position_dodge(width = 1), 
+                vjust = 1.2)+
+      ylim(0,100)+
+      labs(x="", y="", 
+           title = "", 
+           fill="Test", color= "Test")+
+      theme_minimal()+
+      theme(legend.position = "bottom")+
+      scale_fill_manual( values = c("#26547C", "#011638"))+
+      scale_color_manual( values = c("#000000", "#F6F6F6"))+
+      theme(legend.position = "none")+
+      facet_wrap(vars(School), nrow = 3)
+    
+    return(p2)
+    
+  }, bg="transparent",
+) 
   
   # ## Value Boxes
   # 

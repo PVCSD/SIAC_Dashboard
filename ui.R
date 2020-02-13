@@ -43,20 +43,28 @@ ui <- dashboardPage(skin = 'black',
         ),
       tabItem(
         tabName = "grade_SA", 
-        box(width = 12, 
+        column(width=6, 
+        box( width = 12,
           column( width  = 6,
             selectInput( 
               "subject_select_SA", 
               "Select Subject", 
               choices = c("Reading", "Math")
-            )
+            ), 
+            uiOutput("grade_select_SA")
           ) ,
           column(width = 6,
-                 uiOutput("grade_select_SA")
+                 
                  ), 
-          ), 
+          )
+        
+        ), 
+        column(width = 6,
+        
+        plotOutput("grade_plot_district_SA"), 
         plotOutput("grade_plot_building_SA")
         
+        )
         
       )
     )
