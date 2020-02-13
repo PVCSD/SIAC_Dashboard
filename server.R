@@ -6,11 +6,15 @@ library(DT)
 options(shiny.usecairo=T)
 
 proficencyGroups <- readr::read_csv("Data/state_assessment_agg.csv")
+proficencyGrades <- readr::read_csv("Data/state_assessment_buildings.csv")
+
 
 
 
 server <- function(input, output) {
   
+  
+  ## Create lists dynamically for UI
   cohortsAvailabeSA <- reactive({
     print("getting cohorts")
     cohorts <- proficencyGroups %>%
@@ -22,6 +26,20 @@ server <- function(input, output) {
     return(cohorts)
   })
   
+  grades_available_SA <- reactive({
+    print("getting grades")
+    grades <- proficencyGroups %>%
+      select(Grade)%>%
+      distinct() %>%
+      arrange(Grade)
+    grade <- grades$Grade
+    
+    return(grade)
+  })
+  
+  
+  
+  # need to fix this function. 
   filteredStateAssessments <- reactive({
     print("filtering data")
     proficencyGroups %>%
@@ -89,10 +107,19 @@ server <- function(input, output) {
   
   
   ## UI functions
+  
+  #State Assessment cohort selection
   output$cohort_select_SA <- renderUI({
     list <-  cohortsAvailabeSA()
     selectInput("SAClassOf", "Cohort", choices = list)
   })
+  
+  #State Assessment grade selection
+  output$grade_select_SA <- renderUI({
+    list <-  grades_available_SA()
+    selectInput("grade_SA", "Grade", choices = list)
+  })
+  
   
   
   ## Plots
@@ -233,6 +260,33 @@ server <- function(input, output) {
     
   }, bg="transparent", execOnResize = TRUE)
   
+  
+  # STATE ASSESSMENT PLOT DISTRICT
+  output$grade_plot_building_SA <- renderPlot({
+    proficencyGrades %>%
+      filter(Grade == input$grade_SA, 
+             Subject == input$subject_select_SA) %>%
+      filter(Year != "13-14")%>%
+      group_by(Year)%>%
+      mutate(Score = str_remove(Score, pattern = "%")) %>%
+      summarise(Score2 = mean(as.numeric(Score), na.rm = T), 
+                testName = `Test Name`[1])%>%
+      ggplot(aes(x=Year, y=Score2, fill=testName, color=testName)) +
+      geom_bar(stat='identity')+
+      geom_text(aes(label=paste0(round(Score2, 1), '%')), color = "#D6D6D6", 
+                position = position_dodge(width = 1), 
+                vjust = 1.2)+
+      ylim(0,100)+
+      labs(x="", y="", 
+           title = "District",
+           fill="Test", color= "Test")+
+      theme_minimal()+
+      theme(legend.position = "bottom")+
+      scale_fill_manual( values = c("#26547C", "#011638"))+
+      scale_color_manual( values = c("#000000", "#F6F6F6"))+
+      theme(legend.position = "none")+
+      theme(plot.title = element_text(hjust=0.5))
+  },bg="transparent", execOnResize = TRUE)
   
   # ## Value Boxes
   # 

@@ -1,0 +1,397 @@
+School,Year,Subject,Grade,Score,Cohort,Test Name
+BRDV,15-16,Reading,3,80.90%,CO2025,Iowa Assessment
+BRDV,15-16,Reading,4,88.10%,CO2024,Iowa Assessment
+BRDV,15-16,Reading,5,90.70%,CO2023,Iowa Assessment
+BRDV,15-16,Reading,6,82.70%,CO2022,Iowa Assessment
+BRDV,15-16,Math,3,91.50%,CO2025,Iowa Assessment
+BRDV,15-16,Math,4,95.20%,CO2024,Iowa Assessment
+BRDV,15-16,Math,5,100.00%,CO2023,Iowa Assessment
+BRDV,15-16,Math,6,92.70%,CO2022,Iowa Assessment
+BRDV,15-16,Science,3,95.80%,CO2025,Iowa Assessment
+BRDV,15-16,Science,4,88.90%,CO2024,Iowa Assessment
+BRDV,15-16,Science,5,100.00%,CO2023,Iowa Assessment
+BRDV,15-16,Science,6,92.70%,CO2022,Iowa Assessment
+BRDV,16-17,Reading,3,76.10%,CO2026,Iowa Assessment
+BRDV,16-17,Reading,4,86.10%,CO2025,Iowa Assessment
+BRDV,16-17,Reading,5,81.60%,CO2024,Iowa Assessment
+BRDV,16-17,Reading,6,91.80%,CO2023,Iowa Assessment
+BRDV,16-17,Math,3,87.00%,CO2026,Iowa Assessment
+BRDV,16-17,Math,4,93.00%,CO2025,Iowa Assessment
+BRDV,16-17,Math,5,85.70%,CO2024,Iowa Assessment
+BRDV,16-17,Math,6,95.90%,CO2023,Iowa Assessment
+BRDV,16-17,Science,3,95.70%,CO2026,Iowa Assessment
+BRDV,16-17,Science,4,90.70%,CO2025,Iowa Assessment
+BRDV,16-17,Science,5,79.60%,CO2024,Iowa Assessment
+BRDV,16-17,Science,6,93.90%,CO2023,Iowa Assessment
+BRDV,17-18,Reading,3,93.00%,CO2027,Iowa Assessment
+BRDV,17-18,Reading,4,86.00%,CO2026,Iowa Assessment
+BRDV,17-18,Reading,5,88.00%,CO2025,Iowa Assessment
+BRDV,17-18,Reading,6,87.50%,CO2024,Iowa Assessment
+BRDV,17-18,Math,3,90.70%,CO2027,Iowa Assessment
+BRDV,17-18,Math,4,92.00%,CO2026,Iowa Assessment
+BRDV,17-18,Math,5,90.00%,CO2025,Iowa Assessment
+BRDV,17-18,Math,6,95.80%,CO2024,Iowa Assessment
+BRDV,17-18,Science,3,95.40%,CO2027,Iowa Assessment
+BRDV,17-18,Science,4,94.00%,CO2026,Iowa Assessment
+BRDV,17-18,Science,5,91.80%,CO2025,Iowa Assessment
+BRDV,17-18,Science,6,87.50%,CO2024,Iowa Assessment
+CODY,15-16,Reading,3,91.70%,CO2025,Iowa Assessment
+CODY,15-16,Reading,4,88.00%,CO2024,Iowa Assessment
+CODY,15-16,Reading,5,72.70%,CO2023,Iowa Assessment
+CODY,15-16,Reading,6,93.90%,CO2022,Iowa Assessment
+CODY,15-16,Math,3,95.80%,CO2025,Iowa Assessment
+CODY,15-16,Math,4,94.00%,CO2024,Iowa Assessment
+CODY,15-16,Math,5,93.20%,CO2023,Iowa Assessment
+CODY,15-16,Math,6,98.00%,CO2022,Iowa Assessment
+CODY,15-16,Science,3,97.90%,CO2025,Iowa Assessment
+CODY,15-16,Science,4,96.00%,CO2024,Iowa Assessment
+CODY,15-16,Science,5,90.90%,CO2023,Iowa Assessment
+CODY,15-16,Science,6,91.80%,CO2022,Iowa Assessment
+CODY,16-17,Reading,3,93.80%,CO2026,Iowa Assessment
+CODY,16-17,Reading,4,84.00%,CO2025,Iowa Assessment
+CODY,16-17,Reading,5,88.00%,CO2024,Iowa Assessment
+CODY,16-17,Reading,6,76.60%,CO2023,Iowa Assessment
+CODY,16-17,Math,3,93.80%,CO2026,Iowa Assessment
+CODY,16-17,Math,4,96.00%,CO2025,Iowa Assessment
+CODY,16-17,Math,5,90.00%,CO2024,Iowa Assessment
+CODY,16-17,Math,6,89.40%,CO2023,Iowa Assessment
+CODY,16-17,Science,3,97.90%,CO2026,Iowa Assessment
+CODY,16-17,Science,4,96.00%,CO2025,Iowa Assessment
+CODY,16-17,Science,5,78.00%,CO2024,Iowa Assessment
+CODY,16-17,Science,6,85.00%,CO2023,Iowa Assessment
+CODY,17-18,Reading,3,93.60%,CO2027,Iowa Assessment
+CODY,17-18,Reading,4,92.00%,CO2026,Iowa Assessment
+CODY,17-18,Reading,5,86.30%,CO2025,Iowa Assessment
+CODY,17-18,Reading,6,85.40%,CO2024,Iowa Assessment
+CODY,17-18,Math,3,95.70%,CO2027,Iowa Assessment
+CODY,17-18,Math,4,94.00%,CO2026,Iowa Assessment
+CODY,17-18,Math,5,90.20%,CO2025,Iowa Assessment
+CODY,17-18,Math,6,95.80%,CO2024,Iowa Assessment
+CODY,17-18,Science,3,95.70%,CO2027,Iowa Assessment
+CODY,17-18,Science,4,94.00%,CO2026,Iowa Assessment
+CODY,17-18,Science,5,94.10%,CO2025,Iowa Assessment
+CODY,17-18,Science,6,87.50%,CO2024,Iowa Assessment
+HPWL,15-16,Reading,3,92.50%,CO2025,Iowa Assessment
+HPWL,15-16,Reading,4,91.70%,CO2024,Iowa Assessment
+HPWL,15-16,Reading,5,97.20%,CO2023,Iowa Assessment
+HPWL,15-16,Reading,6,90.80%,CO2022,Iowa Assessment
+HPWL,15-16,Math,3,95.70%,CO2025,Iowa Assessment
+HPWL,15-16,Math,4,94.10%,CO2024,Iowa Assessment
+HPWL,15-16,Math,5,94.40%,CO2023,Iowa Assessment
+HPWL,15-16,Math,6,94.70%,CO2022,Iowa Assessment
+HPWL,15-16,Science,3,94.60%,CO2025,Iowa Assessment
+HPWL,15-16,Science,4,94.10%,CO2024,Iowa Assessment
+HPWL,15-16,Science,5,97.20%,CO2023,Iowa Assessment
+HPWL,15-16,Science,6,88.20%,CO2022,Iowa Assessment
+HPWL,16-17,Reading,3,94.90%,CO2026,Iowa Assessment
+HPWL,16-17,Reading,4,96.80%,CO2025,Iowa Assessment
+HPWL,16-17,Reading,5,85.30%,CO2024,Iowa Assessment
+HPWL,16-17,Reading,6,92.00%,CO2023,Iowa Assessment
+HPWL,16-17,Math,3,93.60%,CO2026,Iowa Assessment
+HPWL,16-17,Math,4,97.90%,CO2025,Iowa Assessment
+HPWL,16-17,Math,5,97.90%,CO2024,Iowa Assessment
+HPWL,16-17,Math,6,98.70%,CO2023,Iowa Assessment
+HPWL,16-17,Science,3,96.20%,CO2026,Iowa Assessment
+HPWL,16-17,Science,4,94.70%,CO2025,Iowa Assessment
+HPWL,16-17,Science,5,87.40%,CO2024,Iowa Assessment
+HPWL,16-17,Science,6,96.00%,CO2023,Iowa Assessment
+HPWL,17-18,Reading,3,89.60%,CO2027,Iowa Assessment
+HPWL,17-18,Reading,4,91.70%,CO2026,Iowa Assessment
+HPWL,17-18,Reading,5,96.00%,CO2025,Iowa Assessment
+HPWL,17-18,Reading,6,92.10%,CO2024,Iowa Assessment
+HPWL,17-18,Math,3,92.70%,CO2027,Iowa Assessment
+HPWL,17-18,Math,4,90.50%,CO2026,Iowa Assessment
+HPWL,17-18,Math,5,96.00%,CO2025,Iowa Assessment
+HPWL,17-18,Math,6,95.10%,CO2024,Iowa Assessment
+HPWL,17-18,Science,3,94.80%,CO2027,Iowa Assessment
+HPWL,17-18,Science,4,97.60%,CO2026,Iowa Assessment
+HPWL,17-18,Science,5,97.00%,CO2025,Iowa Assessment
+HPWL,17-18,Science,6,91.10%,CO2024,Iowa Assessment
+PLSV,15-16,Reading,3,94.60%,CO2025,Iowa Assessment
+PLSV,15-16,Reading,4,86.00%,CO2024,Iowa Assessment
+PLSV,15-16,Reading,5,83.20%,CO2023,Iowa Assessment
+PLSV,15-16,Reading,6,89.00%,CO2022,Iowa Assessment
+PLSV,15-16,Math,3,94.60%,CO2025,Iowa Assessment
+PLSV,15-16,Math,4,90.30%,CO2024,Iowa Assessment
+PLSV,15-16,Math,5,91.60%,CO2023,Iowa Assessment
+PLSV,15-16,Math,6,96.00%,CO2022,Iowa Assessment
+PLSV,15-16,Science,3,96.70%,CO2025,Iowa Assessment
+PLSV,15-16,Science,4,93.60%,CO2024,Iowa Assessment
+PLSV,15-16,Science,5,89.50%,CO2023,Iowa Assessment
+PLSV,15-16,Science,6,90.00%,CO2022,Iowa Assessment
+PLSV,16-17,Reading,3,94.90%,CO2026,Iowa Assessment
+PLSV,16-17,Reading,4,91.80%,CO2025,Iowa Assessment
+PLSV,16-17,Reading,5,88.30%,CO2024,Iowa Assessment
+PLSV,16-17,Reading,6,84.50%,CO2023,Iowa Assessment
+PLSV,16-17,Math,3,97.50%,CO2026,Iowa Assessment
+PLSV,16-17,Math,4,94.90%,CO2025,Iowa Assessment
+PLSV,16-17,Math,5,90.40%,CO2024,Iowa Assessment
+PLSV,16-17,Math,6,96.90%,CO2023,Iowa Assessment
+PLSV,16-17,Science,3,98.70%,CO2026,Iowa Assessment
+PLSV,16-17,Science,4,94.90%,CO2025,Iowa Assessment
+PLSV,16-17,Science,5,92.60%,CO2024,Iowa Assessment
+PLSV,16-17,Science,6,87.60%,CO2023,Iowa Assessment
+PLSV,17-18,Reading,3,93.80%,CO2027,Iowa Assessment
+PLSV,17-18,Reading,4,94.80%,CO2026,Iowa Assessment
+PLSV,17-18,Reading,5,95.90%,CO2025,Iowa Assessment
+PLSV,17-18,Reading,6,90.90%,CO2024,Iowa Assessment
+PLSV,17-18,Math,3,93.80%,CO2027,Iowa Assessment
+PLSV,17-18,Math,4,94.80%,CO2026,Iowa Assessment
+PLSV,17-18,Math,5,93.90%,CO2025,Iowa Assessment
+PLSV,17-18,Math,6,92.90%,CO2024,Iowa Assessment
+PLSV,17-18,Science,3,97.90%,CO2027,Iowa Assessment
+PLSV,17-18,Science,4,97.40%,CO2026,Iowa Assessment
+PLSV,17-18,Science,5,95.90%,CO2025,Iowa Assessment
+PLSV,17-18,Science,6,88.90%,CO2024,Iowa Assessment
+RVDL,15-16,Reading,3,80.00%,CO2025,Iowa Assessment
+RVDL,15-16,Reading,4,86.80%,CO2024,Iowa Assessment
+RVDL,15-16,Reading,5,90.40%,CO2023,Iowa Assessment
+RVDL,15-16,Reading,6,87.40%,CO2022,Iowa Assessment
+RVDL,15-16,Math,3,87.40%,CO2025,Iowa Assessment
+RVDL,15-16,Math,4,92.30%,CO2024,Iowa Assessment
+RVDL,15-16,Math,5,98.90%,CO2023,Iowa Assessment
+RVDL,15-16,Math,6,93.70%,CO2022,Iowa Assessment
+RVDL,15-16,Science,3,90.50%,CO2025,Iowa Assessment
+RVDL,15-16,Science,4,93.40%,CO2024,Iowa Assessment
+RVDL,15-16,Science,5,92.60%,CO2023,Iowa Assessment
+RVDL,15-16,Science,6,91.60%,CO2022,Iowa Assessment
+RVDL,16-17,Reading,3,91.60%,CO2026,Iowa Assessment
+RVDL,16-17,Reading,4,81.80%,CO2025,Iowa Assessment
+RVDL,16-17,Reading,5,86.60%,CO2024,Iowa Assessment
+RVDL,16-17,Reading,6,90.70%,CO2023,Iowa Assessment
+RVDL,16-17,Math,3,92.60%,CO2026,Iowa Assessment
+RVDL,16-17,Math,4,85.90%,CO2025,Iowa Assessment
+RVDL,16-17,Math,5,93.80%,CO2024,Iowa Assessment
+RVDL,16-17,Math,6,79.90%,CO2023,Iowa Assessment
+RVDL,16-17,Science,3,96.80%,CO2026,Iowa Assessment
+RVDL,16-17,Science,4,78.90%,CO2025,Iowa Assessment
+RVDL,16-17,Science,5,93.80%,CO2024,Iowa Assessment
+RVDL,16-17,Science,6,91.80%,CO2023,Iowa Assessment
+RVDL,17-18,Reading,3,83.20%,CO2027,Iowa Assessment
+RVDL,17-18,Reading,4,94.40%,CO2026,Iowa Assessment
+RVDL,17-18,Reading,5,80.80%,CO2025,Iowa Assessment
+RVDL,17-18,Reading,6,82.50%,CO2024,Iowa Assessment
+RVDL,17-18,Math,3,88.30%,CO2027,Iowa Assessment
+RVDL,17-18,Math,4,97.80%,CO2026,Iowa Assessment
+RVDL,17-18,Math,5,87.00%,CO2025,Iowa Assessment
+RVDL,17-18,Math,6,91.80%,CO2024,Iowa Assessment
+RVDL,17-18,Science,3,92.60%,CO2027,Iowa Assessment
+RVDL,17-18,Science,4,96.70%,CO2026,Iowa Assessment
+RVDL,17-18,Science,5,91.00%,CO2025,Iowa Assessment
+RVDL,17-18,Science,6,91.80%,CO2024,Iowa Assessment
+BRDV,18-19,Reading,3,79.17%,CO2028,ISASP
+BRDV,18-19,Reading,4,86.36%,CO2027,ISASP
+BRDV,18-19,Reading,5,79.17%,CO2026,ISASP
+BRDV,18-19,Reading,6,91.67%,CO2025,ISASP
+BRDV,18-19,Math,3,93.75%,CO2028,ISASP
+BRDV,18-19,Math,4,93.18%,CO2027,ISASP
+BRDV,18-19,Math,5,83.33%,CO2026,ISASP
+BRDV,18-19,Math,6,87.50%,CO2025,ISASP
+BRDV,18-19,Science,5,64.58%,CO2026,ISASP
+CODY,18-19,Reading,3,76.09%,CO2028,ISASP
+CODY,18-19,Reading,4,83.67%,CO2027,ISASP
+CODY,18-19,Reading,5,87.76%,CO2026,ISASP
+CODY,18-19,Reading,6,84.00%,CO2025,ISASP
+CODY,18-19,Math,3,91.30%,CO2028,ISASP
+CODY,18-19,Math,4,89.80%,CO2027,ISASP
+CODY,18-19,Math,5,89.80%,CO2026,ISASP
+CODY,18-19,Math,6,94.00%,CO2025,ISASP
+CODY,18-19,Science,5,75.51%,CO2026,ISASP
+HPWL,18-19,Reading,3,83.72%,CO2028,ISASP
+HPWL,18-19,Reading,4,95.88%,CO2027,ISASP
+HPWL,18-19,Reading,5,91.49%,CO2026,ISASP
+HPWL,18-19,Reading,6,98.98%,CO2025,ISASP
+HPWL,18-19,Math,3,93.02%,CO2028,ISASP
+HPWL,18-19,Math,4,95.88%,CO2027,ISASP
+HPWL,18-19,Math,5,98.94%,CO2026,ISASP
+HPWL,18-19,Math,6,98.98%,CO2025,ISASP
+HPWL,18-19,Science,5,74.47%,CO2026,ISASP
+PLSV,18-19,Reading,3,88.89%,CO2028,ISASP
+PLSV,18-19,Reading,4,88.00%,CO2027,ISASP
+PLSV,18-19,Reading,5,94.67%,CO2026,ISASP
+PLSV,18-19,Reading,6,91.13%,CO2025,ISASP
+PLSV,18-19,Math,3,97.78%,CO2028,ISASP
+PLSV,18-19,Math,4,99.00%,CO2027,ISASP
+PLSV,18-19,Math,5,93.33%,CO2026,ISASP
+PLSV,18-19,Math,6,97.58%,CO2025,ISASP
+PLSV,18-19,Science,5,77.33%,CO2026,ISASP
+RVDL,18-19,Reading,3,69.57%,CO2028,ISASP
+RVDL,18-19,Reading,4,87.23%,CO2027,ISASP
+RVDL,18-19,Reading,5,85.00%,CO2026,ISASP
+RVDL,18-19,Reading,6,85.42%,CO2025,ISASP
+RVDL,18-19,Math,3,79.35%,CO2028,ISASP
+RVDL,18-19,Math,4,87.23%,CO2027,ISASP
+RVDL,18-19,Math,5,95.00%,CO2026,ISASP
+RVDL,18-19,Math,6,92.71%,CO2025,ISASP
+RVDL,18-19,Science,5,75.00%,CO2026,ISASP
+PVJH,15-16,Reading,7,90.64%,CO2021,Iowa Assessment
+PVJH,15-16,Reading,8,88.29%,CO2020,Iowa Assessment
+PVJH,16-17,Reading,7,90.22%,CO2022,Iowa Assessment
+PVJH,16-17,Reading,8,89.04%,CO2021,Iowa Assessment
+PVJH,17-18,Reading,7,88.65%,CO2023,Iowa Assessment
+PVJH,17-18,Reading,8,90.40%,CO2022,Iowa Assessment
+PVJH,15-16,Math,7,95.17%,CO2021,Iowa Assessment
+PVJH,15-16,Math,8,93.09%,CO2020,Iowa Assessment
+PVJH,16-17,Math,7,93.75%,CO2022,Iowa Assessment
+PVJH,16-17,Math,8,90.21%,CO2021,Iowa Assessment
+PVJH,17-18,Math,7,94.06%,CO2023,Iowa Assessment
+PVJH,17-18,Math,8,91.47%,CO2022,Iowa Assessment
+PVJH,15-16,Science,7,93.35%,CO2021,Iowa Assessment
+PVJH,15-16,Science,8,97.60%,CO2020,Iowa Assessment
+PVJH,16-17,Science,7,93.21%,CO2022,Iowa Assessment
+PVJH,16-17,Science,8,95.10%,CO2021,Iowa Assessment
+PVJH,17-18,Science,7,90.00%,CO2023,Iowa Assessment
+PVJH,17-18,Science,8,96.26%,CO2022,Iowa Assessment
+PVHS,15-16,Reading,9,92.92%,CO2019,Iowa Assessment
+PVHS,15-16,Reading,10,94.93%,CO2018,Iowa Assessment
+PVHS,15-16,Reading,11,93.27%,CO2017,Iowa Assessment
+PVHS,15-16,Math,9,92.63%,CO2019,Iowa Assessment
+PVHS,15-16,Math,10,93.62%,CO2018,Iowa Assessment
+PVHS,15-16,Math,11,94.61%,CO2017,Iowa Assessment
+PVHS,15-16,Science,9,87.61%,CO2019,Iowa Assessment
+PVHS,15-16,Science,10,93.08%,CO2018,Iowa Assessment
+PVHS,15-16,Science,11,90.57%,CO2017,Iowa Assessment
+PVHS,16-17,Reading,9,96.80%,CO2020,Iowa Assessment
+PVHS,16-17,Reading,10,95.30%,CO2019,Iowa Assessment
+PVHS,16-17,Reading,11,90.88%,CO2018,Iowa Assessment
+PVHS,16-17,Math,9,94.46%,CO2020,Iowa Assessment
+PVHS,16-17,Math,10,95.00%,CO2019,Iowa Assessment
+PVHS,16-17,Math,11,93.03%,CO2018,Iowa Assessment
+PVHS,16-17,Science,9,91.26%,CO2020,Iowa Assessment
+PVHS,16-17,Science,10,93.82%,CO2019,Iowa Assessment
+PVHS,16-17,Science,11,86.86%,CO2018,Iowa Assessment
+PVHS,17-18,Reading,9,95.82%,CO2021,Iowa Assessment
+PVHS,17-18,Reading,10,94.73%,CO2020,Iowa Assessment
+PVHS,17-18,Reading,11,91.49%,CO2019,Iowa Assessment
+PVHS,17-18,Math,9,92.48%,CO2021,Iowa Assessment
+PVHS,17-18,Math,10,94.43%,CO2020,Iowa Assessment
+PVHS,17-18,Math,11,95.31%,CO2019,Iowa Assessment
+PVHS,17-18,Science,9,93.60%,CO2021,Iowa Assessment
+PVHS,17-18,Science,10,91.49%,CO2020,Iowa Assessment
+PVHS,17-18,Science,11,90.32%,CO2019,Iowa Assessment
+PVJH,18-19,Reading,7,86.34%,CO2024,ISASP
+PVJH,18-19,Math,7,89.27%,CO2024,ISASP
+PVJH,18-19,Reading,8,82.67%,CO2023,ISASP
+PVJH,18-19,Math,8,83.82%,CO2023,ISASP
+PVJH,18-19,Science,8,80.64%,CO2023,ISASP
+PVHS,18-19,Reading,9,96.77%,CO2022,ISASP
+PVHS,18-19,Math,9,92.78%,CO2022,ISASP
+PVHS,18-19,Reading,10,93.70%,CO2021,ISASP
+PVHS,18-19,Math,10,88.25%,CO2021,ISASP
+PVHS,18-19,Science,10,78.51%,CO2021,ISASP
+PVHS,18-19,Reading,11,91.04%,CO2020,ISASP
+PVHS,18-19,Math,11,92.54%,CO2020,ISASP
+BRDV,13-14,Reading,3,84.40%,CO2023,Iowa Assessment
+BRDV,14-15,Reading,3,77.30%,CO2024,Iowa Assessment
+CODY,13-14,Reading,3,84.60%,CO2023,Iowa Assessment
+CODY,14-15,Reading,3,89.60%,CO2024,Iowa Assessment
+HPWL,13-14,Reading,3,94.60%,CO2023,Iowa Assessment
+HPWL,14-15,Reading,3,91.00%,CO2024,Iowa Assessment
+PLSV,13-14,Reading,3,84.90%,CO2023,Iowa Assessment
+PLSV,14-15,Reading,3,87.80%,CO2024,Iowa Assessment
+RVDL,13-14,Reading,3,85.90%,CO2023,Iowa Assessment
+RVDL,14-15,Reading,3,76.10%,CO2024,Iowa Assessment
+BRDV,13-14,Reading,4,90.70%,CO2022,Iowa Assessment
+BRDV,14-15,Reading,4,93.30%,CO2023,Iowa Assessment
+CODY,13-14,Reading,4,91.70%,CO2022,Iowa Assessment
+CODY,14-15,Reading,4,79.50%,CO2023,Iowa Assessment
+HPWL,13-14,Reading,4,87.70%,CO2022,Iowa Assessment
+HPWL,14-15,Reading,4,93.70%,CO2023,Iowa Assessment
+PLSV,13-14,Reading,4,89.50%,CO2022,Iowa Assessment
+PLSV,14-15,Reading,4,82.50%,CO2023,Iowa Assessment
+RVDL,13-14,Reading,4,83.90%,CO2022,Iowa Assessment
+RVDL,14-15,Reading,4,90.50%,CO2023,Iowa Assessment
+BRDV,13-14,Reading,5,69.70%,CO2021,Iowa Assessment
+BRDV,14-15,Reading,5,87.50%,CO2022,Iowa Assessment
+CODY,13-14,Reading,5,80.00%,CO2021,Iowa Assessment
+CODY,14-15,Reading,5,81.60%,CO2022,Iowa Assessment
+HPWL,13-14,Reading,5,88.00%,CO2021,Iowa Assessment
+HPWL,14-15,Reading,5,90.90%,CO2022,Iowa Assessment
+PLSV,13-14,Reading,5,84.80%,CO2021,Iowa Assessment
+PLSV,14-15,Reading,5,90.10%,CO2022,Iowa Assessment
+RVDL,13-14,Reading,5,90.70%,CO2021,Iowa Assessment
+RVDL,14-15,Reading,5,86.80%,CO2022,Iowa Assessment
+BRDV,13-14,Reading,6,73.90%,CO2020,Iowa Assessment
+BRDV,14-15,Reading,6,75.00%,CO2021,Iowa Assessment
+CODY,13-14,Reading,6,72.00%,CO2020,Iowa Assessment
+CODY,14-15,Reading,6,87.00%,CO2021,Iowa Assessment
+HPWL,13-14,Reading,6,93.50%,CO2020,Iowa Assessment
+HPWL,14-15,Reading,6,90.00%,CO2021,Iowa Assessment
+PLSV,13-14,Reading,6,95.90%,CO2020,Iowa Assessment
+PLSV,14-15,Reading,6,89.30%,CO2021,Iowa Assessment
+RVDL,13-14,Reading,6,84.80%,CO2020,Iowa Assessment
+RVDL,14-15,Reading,6,91.40%,CO2021,Iowa Assessment
+BRDV,13-14,Math,3,91.10%,CO2023,Iowa Assessment
+BRDV,14-15,Math,3,88.90%,CO2024,Iowa Assessment
+CODY,13-14,Math,3,92.30%,CO2023,Iowa Assessment
+CODY,14-15,Math,3,89.60%,CO2024,Iowa Assessment
+HPWL,13-14,Math,3,98.20%,CO2023,Iowa Assessment
+HPWL,14-15,Math,3,91.00%,CO2024,Iowa Assessment
+PLSV,13-14,Math,3,86.00%,CO2023,Iowa Assessment
+PLSV,14-15,Math,3,86.70%,CO2024,Iowa Assessment
+RVDL,13-14,Math,3,91.80%,CO2023,Iowa Assessment
+RVDL,14-15,Math,3,88.30%,CO2024,Iowa Assessment
+BRDV,13-14,Math,4,95.30%,CO2022,Iowa Assessment
+BRDV,14-15,Math,4,97.80%,CO2023,Iowa Assessment
+CODY,13-14,Math,4,87.50%,CO2022,Iowa Assessment
+CODY,14-15,Math,4,90.90%,CO2023,Iowa Assessment
+HPWL,13-14,Math,4,93.00%,CO2022,Iowa Assessment
+HPWL,14-15,Math,4,95.20%,CO2023,Iowa Assessment
+PLSV,13-14,Math,4,92.60%,CO2022,Iowa Assessment
+PLSV,14-15,Math,4,89.70%,CO2023,Iowa Assessment
+RVDL,13-14,Math,4,90.30%,CO2022,Iowa Assessment
+RVDL,14-15,Math,4,91.70%,CO2023,Iowa Assessment
+BRDV,13-14,Math,5,84.80%,CO2021,Iowa Assessment
+BRDV,14-15,Math,5,90.00%,CO2022,Iowa Assessment
+CODY,13-14,Math,5,86.70%,CO2021,Iowa Assessment
+CODY,14-15,Math,5,95.90%,CO2022,Iowa Assessment
+HPWL,13-14,Math,5,96.00%,CO2021,Iowa Assessment
+HPWL,14-15,Math,5,94.00%,CO2022,Iowa Assessment
+PLSV,13-14,Math,5,92.40%,CO2021,Iowa Assessment
+PLSV,14-15,Math,5,94.10%,CO2022,Iowa Assessment
+RVDL,13-14,Math,5,96.50%,CO2021,Iowa Assessment
+RVDL,14-15,Math,5,92.30%,CO2022,Iowa Assessment
+BRDV,13-14,Math,6,91.30%,CO2020,Iowa Assessment
+BRDV,14-15,Math,6,93.80%,CO2021,Iowa Assessment
+CODY,13-14,Math,6,92.00%,CO2020,Iowa Assessment
+CODY,14-15,Math,6,93.50%,CO2021,Iowa Assessment
+HPWL,13-14,Math,6,97.80%,CO2020,Iowa Assessment
+HPWL,14-15,Math,6,96.00%,CO2021,Iowa Assessment
+PLSV,13-14,Math,6,97.90%,CO2020,Iowa Assessment
+PLSV,14-15,Math,6,92.50%,CO2021,Iowa Assessment
+RVDL,13-14,Math,6,92.90%,CO2020,Iowa Assessment
+RVDL,14-15,Math,6,93.60%,CO2021,Iowa Assessment
+BRDV,13-14,Science,5,93.90%,CO2021,Iowa Assessment
+BRDV,14-15,Science,5,92.50%,CO2022,Iowa Assessment
+CODY,13-14,Science,5,88.90%,CO2021,Iowa Assessment
+CODY,14-15,Science,5,87.80%,CO2022,Iowa Assessment
+HPWL,13-14,Science,5,92.00%,CO2021,Iowa Assessment
+HPWL,14-15,Science,5,91.10%,CO2022,Iowa Assessment
+PLSV,13-14,Science,5,89.10%,CO2021,Iowa Assessment
+PLSV,14-15,Science,5,91.10%,CO2022,Iowa Assessment
+RVDL,13-14,Science,5,95.30%,CO2021,Iowa Assessment
+RVDL,14-15,Science,5,90.10%,CO2022,Iowa Assessment
+PVJH,13-14,Reading,7,85.80%,CO2019,Iowa Assessment
+PVJH,14-15,Reading,7,88.40%,CO2020,Iowa Assessment
+PVJH,13-14,Math,7,91.90%,CO2019,Iowa Assessment
+PVJH,14-15,Math,7,93.10%,CO2020,Iowa Assessment
+PVJH,13-14,Science,7,87.80%,CO2019,Iowa Assessment
+PVJH,14-15,Science,7,92.20%,CO2020,Iowa Assessment
+PVJH,13-14,Reading,8,87.50%,CO2018,Iowa Assessment
+PVJH,14-15,Reading,8,86.10%,CO2019,Iowa Assessment
+PVJH,13-14,Math,8,87.50%,CO2018,Iowa Assessment
+PVJH,14-15,Math,8,87.80%,CO2019,Iowa Assessment
+PVJH,13-14,Science,8,94.70%,CO2018,Iowa Assessment
+PVJH,14-15,Science,8,92.00%,CO2019,Iowa Assessment
+PVHS,13-14,Reading,9,93.90%,CO2017,Iowa Assessment
+PVHS,14-15,Reading,9,95.10%,CO2018,Iowa Assessment
+PVHS,13-14,Reading,11,90.80%,CO2015,Iowa Assessment
+PVHS,14-15,Reading,11,89.30%,CO2016,Iowa Assessment
+PVHS,13-14,Math,9,92.30%,CO2017,Iowa Assessment
+PVHS,14-15,Math,9,90.70%,CO2018,Iowa Assessment
+PVHS,13-14,Math,11,95.90%,CO2015,Iowa Assessment
+PVHS,14-15,Math,11,94.40%,CO2016,Iowa Assessment
+PVHS,13-14,Science,9,88.40%,CO2017,Iowa Assessment
+PVHS,14-15,Science,9,89.70%,CO2018,Iowa Assessment
+PVHS,13-14,Science,11,88.60%,CO2015,Iowa Assessment
+PVHS,14-15,Science,11,86.10%,CO2016,Iowa Assessment
