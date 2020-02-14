@@ -318,7 +318,7 @@ server <- function(input, output) {
       
       return(p1)
     
-  },bg="transparent")
+  })
   
   
   
@@ -350,7 +350,7 @@ server <- function(input, output) {
     
     return(p2)
     
-  }, bg="transparent",
+  },
 ) 
   
   # ## Value Boxes
