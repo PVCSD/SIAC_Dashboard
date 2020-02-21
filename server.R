@@ -8,6 +8,9 @@ options(shiny.usecairo=T)
 
 proficencyGroups <- readr::read_csv("Data/state_assessment_agg.csv")
 proficencyGrades <- readr::read_csv("Data/state_assessment_buildings.csv")
+map_growth <- read_csv("Data/map_gowth_by_grade.csv")
+map_growth <- clean_names(map_growth)
+
 
 
 
@@ -39,6 +42,18 @@ server <- function(input, output) {
   })
   
   
+  years_available_MAP <- reactive({
+    years <- map_growth %>%
+      select(start_year) %>%
+      distinct() %>% 
+      arrange(start_year)
+    
+    years <- years$start_year
+    
+    return(years)
+  })
+  
+  
   
   # need to fix this function. 
   filteredStateAssessments <- reactive({
@@ -50,9 +65,14 @@ server <- function(input, output) {
   })
   
   
+  
+  
+  
+  
+  
+  
   data_for_math_SA <- reactive({
     req(input$SAClassOf)
-    
     
     cohortToPlot <- input$SAClassOf
     proficencyGroups %>%
@@ -119,6 +139,13 @@ server <- function(input, output) {
   output$grade_select_SA <- renderUI({
     list <-  grades_available_SA()
     selectInput("grade_SA", "Grade", choices = list)
+  })
+  
+  #MAP Starting Year Selection
+  output$start_year_select_MAP_growth <- renderUI({
+    
+    list <- years_available_MAP()
+    selectInput("start_year_MAP", "Start Year", choices = list)
   })
   
   
@@ -264,6 +291,9 @@ server <- function(input, output) {
   
   # STATE ASSESSMENT PLOT DISTRICT
   output$grade_plot_district_SA <- renderPlot({
+    req(input$grade_SA)
+    req(input$subject_select_SA)
+    
    p1 <-  proficencyGrades %>%
       filter(Grade == input$grade_SA, 
              Subject == input$subject_select_SA) %>%
@@ -286,7 +316,9 @@ server <- function(input, output) {
       scale_fill_manual( values = c("#26547C", "#011638"))+
       scale_color_manual( values = c("#000000", "#F6F6F6"))+
       theme(legend.position = "none")+
-      theme(plot.title = element_text(hjust=0.5))
+      theme(plot.title = element_text(hjust=0.5))+ 
+      theme(plot.background = element_rect(fill="#f9f9f9", 
+                                                                                        color="#f9f9f9"))
     
     
     p2 <- proficencyGrades %>%
@@ -311,7 +343,9 @@ server <- function(input, output) {
       scale_fill_manual( values = c("#26547C", "#011638"))+
       scale_color_manual( values = c("#000000", "#F6F6F6"))+
       theme(legend.position = "none")+
-      facet_wrap(vars(School), nrow = 3)
+      facet_wrap(vars(School), nrow = 3)+ 
+      theme(plot.background = element_rect(fill="#f9f9f9", 
+                                                                               color="#f9f9f9"))
     
     
     p1/p2+plot_layout(ncol=1)->p3
@@ -323,6 +357,8 @@ server <- function(input, output) {
   
   
   output$grade_plot_building_SA <- renderPlot({
+    req(input$grade_SA)
+    req(input$subject_select_SA)
     
     p2 <- proficencyGrades %>%
       filter(Grade == input$grade_SA, 
@@ -350,8 +386,38 @@ server <- function(input, output) {
     
     return(p2)
     
-  },
-) 
+  }) 
+  
+  output$growth_MAP <- renderPlot({
+    subjectToPlot <- "Reading"
+    school_start_year <- "15-16"
+    previous_year <- paste0("20",substr(school_start_year, 1,2))
+    end_year <- paste0("20",substr(school_start_year, 4,5))
+    sub <- paste0( "Growth in <b style='color:#4B6C8C'>Fall ",end_year, "</b> from ",
+                   "<b style='color:#011638'>Fall ",previous_year," RIT </b>",
+                   "vs. <b style='color:#F39C12'>Projected Growth </b>")
+    
+    year_comparision <- paste0(previous_year, " to ", end_year)
+    
+    map_growth %>%
+      filter(start_year==school_start_year) %>%
+      filter(subject==subjectToPlot) %>%
+      filter(end_year_grade <= 9) %>%
+      ggplot()+
+      geom_bar(aes(x=end_year_rit, y=as.factor(end_year_grade)), stat = "identity", fill="#4B6C8C")+
+      geom_bar(aes(x=start_year_rit, y=as.factor(end_year_grade)), stat = "identity", fill="#011638")+
+      geom_point(aes(x=start_year_rit + projected_growth, y=as.factor(end_year_grade)),  fill ="#F39C12",size = 5, pch=21,)+
+      scale_y_discrete(limits = rev(levels(as.factor(c(4,5,6,7,8,9)))))+
+      theme_minimal()+
+      labs(x="", y="", 
+           title =  paste0(subjectToPlot, " Mean RIT Growth"),
+           subtitle =sub)+
+      #coord_flip()+
+      theme(
+        plot.title = element_markdown(lineheight = 2), 
+        plot.subtitle = element_markdown(lineheight = 1))+
+      theme(plot.title.position = "plot")
+  })
   
   # ## Value Boxes
   # 

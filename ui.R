@@ -14,13 +14,25 @@ ui <- dashboardPage(skin = 'black',
                          icon=icon("bar-chart"),
                          )
              ),
-    menuItem("MAP Results", tabName = "mapResults", icon = icon("map") ),
+    menuItem("MAP Results",  icon = icon("map"),
+             menuSubItem("Cohort Trends", 
+                         tabName = "cohort_MAP", 
+                         icon=icon("line-chart"),
+             ),
+             menuSubItem("Grade Growth", 
+                         tabName = "grade_MAP",
+                         icon=icon("bar-chart"),
+                         )
+             ),
     menuItem("Math Facts", tabName = "mathFacts", icon = icon("calculator")),
     menuItem("Honors Science", tabName = "cutoffs", icon = icon("flask"))
     )
   ),
   dashboardBody(
     tabItems(
+      
+      
+      ##### State Assessment COHORT Tab #####
       tabItem(
         tabName = "cohort_SA", 
         column( width = 12, 
@@ -41,6 +53,7 @@ ui <- dashboardPage(skin = 'black',
           dataTableOutput("math_table_SA")
           )
         ),
+      ##### State Assessment Grade Tab #####
       tabItem(
         tabName = "grade_SA", 
         column(width=6, 
@@ -64,6 +77,21 @@ ui <- dashboardPage(skin = 'black',
         plotOutput("grade_plot_district_SA"), 
         plotOutput("grade_plot_building_SA")
         
+        )
+        
+      ),
+      #### MAP Tabs #####
+      #### MAP COHORT #####
+      tabItem(
+        tabName = "cohort_MAP"
+        
+      ),
+      #### Map Grade ####
+      tabItem(
+        tabName = "grade_MAP", 
+        plotOutput("growth_MAP"),
+        box(
+          
         )
         
       )

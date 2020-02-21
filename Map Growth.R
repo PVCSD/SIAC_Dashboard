@@ -29,12 +29,12 @@ map_growth %>%
   geom_bar(aes(x=end_year_rit, y=as.factor(end_year_grade)), stat = "identity", fill="#4B6C8C")+
   geom_bar(aes(x=start_year_rit, y=as.factor(end_year_grade)), stat = "identity", fill="#011638")+
   geom_point(aes(x=start_year_rit + projected_growth, y=as.factor(end_year_grade)),  fill ="#F39C12",size = 5, pch=21,)+
-  scale_y_discrete(limits = rev(levels(as.factor(c(4,5,6,7,8,9)))))+
+  #scale_y_discrete(limits = rev(levels(as.factor(c(4,5,6,7,8,9)))))+
   theme_minimal()+
   labs(x="", y="", 
        title =  paste0(subjectToPlot, " Mean RIT Growth"),
        subtitle =sub)+
-  #coord_flip()+
+  coord_flip()+
   theme(
     plot.title = element_markdown(lineheight = 2), 
     plot.subtitle = element_markdown(lineheight = 1))+
