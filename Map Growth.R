@@ -11,11 +11,11 @@ trace(grDevices:::png, quote({
   }
 }), print = FALSE)
 
-subjectToPlot <- "Math"
-school_start_year <- "18-19"
+subjectToPlot <- "Reading"
+school_start_year <- "15-16"
 previous_year <- paste0("20",substr(school_start_year, 1,2))
 end_year <- paste0("20",substr(school_start_year, 4,5))
-sub <- paste0( "Growth from <b style='color:#4B6C8C'>Fall ",end_year, "</b> from ",
+sub <- paste0( "Growth in <b style='color:#4B6C8C'>Fall ",end_year, "</b> from ",
                "<b style='color:#011638'>Fall ",previous_year," RIT </b>",
                "vs. <b style='color:#F39C12'>Projected Growth </b>")
 
@@ -38,7 +38,4 @@ map_growth %>%
   theme(
     plot.title = element_markdown(lineheight = 2), 
     plot.subtitle = element_markdown(lineheight = 1))+
-  theme(plot.title.position = "plot")+
-  theme(plot.background = element_rect(fill="#f9f9f9", 
-                                        color="#f9f9f9"))
-  
+  theme(plot.title.position = "plot")
