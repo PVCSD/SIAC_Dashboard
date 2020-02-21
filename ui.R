@@ -21,7 +21,7 @@ ui <- dashboardPage(skin = 'black',
              ),
              menuSubItem("Grade Growth", 
                          tabName = "grade_MAP",
-                         icon=icon("bar-chart"),
+                         icon=icon("seedling"),
                          )
              ),
     menuItem("Math Facts", tabName = "mathFacts", icon = icon("calculator")),
@@ -91,6 +91,9 @@ ui <- dashboardPage(skin = 'black',
         tabName = "grade_MAP", 
         plotOutput("growth_MAP"),
         box(
+          width=12,
+          uiOutput("start_year_select_MAP_growth"),
+          uiOutput("timing_select_MAP_growth")
           
         )
         

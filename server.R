@@ -42,15 +42,30 @@ server <- function(input, output) {
   })
   
   
-  years_available_MAP <- reactive({
+  # get the years available for growth
+  years_available_MAP_growth <- reactive({
     years <- map_growth %>%
       select(start_year) %>%
       distinct() %>% 
       arrange(start_year)
     
     years <- years$start_year
+    yearNames <-  paste0("20",substr(years, 1,2))
+    print(yearNames)
+    names(years) <-  yearNames
+
     
     return(years)
+  })
+  
+  test_timing_map_growth <- reactive({
+    timing <- map_growth %>%
+      select(testing_time_frame)%>%
+      distinct() %>%
+      arrange()
+    
+    timing <- timing$testing_time_frame
+    return(timing)
   })
   
   
@@ -144,8 +159,14 @@ server <- function(input, output) {
   #MAP Starting Year Selection
   output$start_year_select_MAP_growth <- renderUI({
     
-    list <- years_available_MAP()
+    list <- years_available_MAP_growth()
     selectInput("start_year_MAP", "Start Year", choices = list)
+  })
+  
+  output$timing_select_MAP_growth <- renderUI({
+    
+    list <- test_timing_map_growth()
+    selectInput("timing_of_test_map", "Test Timing", choices = list)
   })
   
   
@@ -390,19 +411,20 @@ server <- function(input, output) {
   
   output$growth_MAP <- renderPlot({
     subjectToPlot <- "Reading"
-    school_start_year <- "15-16"
-    previous_year <- paste0("20",substr(school_start_year, 1,2))
-    end_year <- paste0("20",substr(school_start_year, 4,5))
-    sub <- paste0( "Growth in <b style='color:#4B6C8C'>Fall ",end_year, "</b> from ",
+    previous_year <- paste0("20",substr(input$start_year_MAP, 1,2))
+    end_year <- paste0("20",substr(input$start_year_MAP, 4,5))
+    sub <- paste0( "Growth by <b>Grade</b> in <b style='color:#4B6C8C'>Fall ",end_year, "</b> from ",
                    "<b style='color:#011638'>Fall ",previous_year," RIT </b>",
                    "vs. <b style='color:#F39C12'>Projected Growth </b>")
     
     year_comparision <- paste0(previous_year, " to ", end_year)
     
     map_growth %>%
-      filter(start_year==school_start_year) %>%
+      filter(testing_time_frame == input$timing_of_test_map)%>%
+      filter(start_year==input$start_year_MAP) %>%
       filter(subject==subjectToPlot) %>%
       filter(end_year_grade <= 9) %>%
+      distinct()%>%
       ggplot()+
       geom_bar(aes(x=end_year_rit, y=as.factor(end_year_grade)), stat = "identity", fill="#4B6C8C")+
       geom_bar(aes(x=start_year_rit, y=as.factor(end_year_grade)), stat = "identity", fill="#011638")+
