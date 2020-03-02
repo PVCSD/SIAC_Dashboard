@@ -4,6 +4,7 @@ library(ggtext)
 library(Cairo)
 library(DT)
 library(patchwork)
+library(janitor)
 options(shiny.usecairo=T)
 
 proficencyGroups <- readr::read_csv("Data/state_assessment_agg.csv")
@@ -440,24 +441,5 @@ server <- function(input, output) {
         plot.subtitle = element_markdown(lineheight = 1))+
       theme(plot.title.position = "plot")
   })
-  
-  # ## Value Boxes
-  # 
-  # output$vb_reading_high<- renderUI({
-  #   
-  #   print("valueboxfilter")
-  #   
-  #   filteredStateAssessments() %>%
-  #     filter(Level=="High", 
-  #            Subject=="Reading") %>%
-  #     summarise(Percent = mean(Percent))->data
-  #   
-  #   print(data)
-  #   paste0(round(data$Percent[1]*100, 2), '%')->test
-  #   print(test)
-  #   
-  #   valueBox(width= 4,value=test, subtitle= "High", color = "olive")
-  #   
-  #   
-  # })
+
 }
