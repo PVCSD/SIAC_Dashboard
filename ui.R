@@ -1,5 +1,5 @@
-library(shinydashboard)
-library(DT)
+source('helper.R', local = FALSE)
+
 ui <- dashboardPage(skin = 'black',
   dashboardHeader(title="SIAC Dashboard"),
   dashboardSidebar(

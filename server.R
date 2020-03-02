@@ -1,3 +1,4 @@
+# Load Libraries
 library(tidyverse)
 # devtools::install_github("clauswilke/ggtext")
 library(ggtext)
@@ -5,8 +6,12 @@ library(Cairo)
 library(DT)
 library(patchwork)
 library(janitor)
+library(shinydashboard)
 #options(shiny.usecairo = T)
 
+
+
+## read in data. Update this data to update the plots. 
 proficencyGroups <- readr::read_csv("Data/state_assessment_agg.csv")
 proficencyGrades <- readr::read_csv("Data/state_assessment_buildings.csv")
 map_growth <- read_csv("Data/map_gowth_by_grade.csv")
@@ -70,17 +75,6 @@ server <- function(input, output) {
   })
 
 
-
-  # need to fix this function.
-  filteredStateAssessments <- reactive({
-    print("filtering data")
-    proficencyGroups %>%
-      filter(Cohort == cohortToPlot) -> filteredDF
-
-    return(filteredDF)
-  })
-
-
   #state assessment math data
   data_for_math_SA <- reactive({
     req(input$SAClassOf)
@@ -136,7 +130,9 @@ server <- function(input, output) {
 
 
 
-  ## UI functions
+  #### UI functions ####
+  
+  ##### STATE ASSEMENT CONTROLS #####
 
   # State Assessment cohort selection
   output$cohort_select_SA <- renderUI({
@@ -150,20 +146,29 @@ server <- function(input, output) {
     selectInput("grade_SA", "Grade", choices = list)
   })
 
+  ##### MAP GROWTH CONTROLS #####
+  
   # MAP Starting Year Selection
   output$start_year_select_MAP_growth <- renderUI({
     list <- years_available_MAP_growth()
     selectInput("start_year_MAP", "Start Year", choices = list)
   })
 
+  # MAP Test Timing 
   output$timing_select_MAP_growth <- renderUI({
     list <- test_timing_map_growth()
     selectInput("timing_of_test_map", "Test Timing", choices = list)
   })
+  
+  # MAP Test subject
+  output$subject_select_MAP_growth <- renderUI({
+    list <- test_subject_map_growth()
+    selectInput("subject_of_test_map", "Test subject", choices = list)
+  })
 
+  ##### / #####
 
-
-  ## Plots
+  #### Plots ####
 
   # STATE ASSESSMENT ELA/Reading Scores
   output$assessmentCohortsELA <- renderPlot(
@@ -248,8 +253,7 @@ server <- function(input, output) {
   )
 
   # STATE ASSESSMENT Math Scores
-  output$assessmentCohortsMath <- renderPlot(
-    {
+  output$assessmentCohortsMath <- renderPlot({
       req(input$SAClassOf)
 
       cohortToPlot <- input$SAClassOf
@@ -404,7 +408,6 @@ server <- function(input, output) {
   })
 
 
-
   output$grade_plot_building_SA <- renderPlot({
     req(input$grade_SA)
     req(input$subject_select_SA)
@@ -481,4 +484,6 @@ server <- function(input, output) {
       ) +
       theme(plot.title.position = "plot")
   })
+  
+  #### / ####
 }
