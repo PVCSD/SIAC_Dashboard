@@ -24,8 +24,7 @@ ui <- dashboardPage(skin = 'black',
                          icon=icon("seedling"),
                          )
              ),
-    menuItem("Math Facts", tabName = "mathFacts", icon = icon("calculator")),
-    menuItem("Honors Science", tabName = "cutoffs", icon = icon("flask"))
+    menuItem("Math Facts", tabName = "mathFacts", icon = icon("calculator"))
     )
   ),
   dashboardBody(
