@@ -73,6 +73,16 @@ server <- function(input, output) {
     timing <- timing$testing_time_frame
     return(timing)
   })
+  
+  test_subject_map_growth <- reactive({
+    sub <- map_growth %>%
+      select(subject) %>%
+      distinct() %>%
+      arrange()
+    
+    sub <- sub$subject
+    return(sub)
+  })
 
 
   #state assessment math data
@@ -449,7 +459,7 @@ server <- function(input, output) {
 
   #growth plot from fall to fall by chohorts
   output$growth_MAP <- renderPlot({
-    subjectToPlot <- "Reading"
+    subjectToPlot <- input$subject_of_test_map
     previous_year <- paste0("20", substr(input$start_year_MAP, 1, 2))
     end_year <- paste0("20", substr(input$start_year_MAP, 4, 5))
     sub <- paste0(

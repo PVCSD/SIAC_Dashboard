@@ -93,7 +93,8 @@ ui <- dashboardPage(skin = 'black',
         box(
           width=12,
           uiOutput("start_year_select_MAP_growth"),
-          uiOutput("timing_select_MAP_growth")
+          uiOutput("timing_select_MAP_growth"),
+          uiOutput("subject_select_MAP_growth")
           
         )
         
