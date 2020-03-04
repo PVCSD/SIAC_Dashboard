@@ -16,8 +16,8 @@ ui <- dashboardPage(skin = 'black',
                          )
              ),
     menuItem("MAP Results",  icon = icon("map"),
-             menuSubItem("Cohort Trends", 
-                         tabName = "cohort_MAP", 
+             menuSubItem("Projected vs. Actual", 
+                         tabName = "cohort_projections_MAP", 
                          icon=icon("line-chart"),
              ),
              menuSubItem("Grade Growth", 
@@ -83,7 +83,9 @@ ui <- dashboardPage(skin = 'black',
       #### MAP Tabs #####
       #### MAP COHORT #####
       tabItem(
-        tabName = "cohort_MAP"
+        tabName = "cohort_projections_MAP",
+        
+        plotOutput("projected_growth_MAP")
         
       ),
       #### Map Grade ####
