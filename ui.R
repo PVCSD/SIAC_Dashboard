@@ -85,7 +85,7 @@ ui <- dashboardPage(skin = 'black',
       tabItem(
         tabName = "cohort_projections_MAP",
         
-        plotOutput("projected_growth_MAP")
+        plotOutput("projected_growth_MAP",width = "100%")
         
       ),
       #### Map Grade ####
